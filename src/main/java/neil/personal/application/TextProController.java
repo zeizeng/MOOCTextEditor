@@ -14,6 +14,9 @@ import javafx.scene.layout.Pane;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import neil.personal.document.Document;
+import neil.personal.spelling.Dictionary;
+import neil.personal.textgen.MarkovTextGenerator;
 
 
 public class TextProController {
@@ -80,7 +83,7 @@ public class TextProController {
 		launch = new LaunchClass();
 		
 		// instantiate and add custom text area
-		spelling.Dictionary dic = launch.getDictionary();
+		Dictionary dic = launch.getDictionary();
 		textBox = new AutoSpellingTextArea(launch.getAutoComplete(), launch.getSpellingSuggest(dic), dic);
 		textBox.setPrefSize(570, 492);
 		textBox.setStyle("-fx-font-size: 14px");
@@ -160,7 +163,7 @@ public class TextProController {
 		if(!text.equals("")) {
 			
 			// create Document representation of  current text
-			document.Document doc = launch.getDocument(text);
+			Document doc = launch.getDocument(text);
 			
 			fIndex = doc.getFleschScore();
 			
@@ -203,11 +206,11 @@ public class TextProController {
 	@FXML
 	private void handleMarkovText() {
 		// get MTG object
-		textgen.MarkovTextGenerator mtg = launch.getMTG();
+		MarkovTextGenerator mtg = launch.getMTG();
 		
-		Task<textgen.MarkovTextGenerator> task = new Task<textgen.MarkovTextGenerator>() {
+		Task<MarkovTextGenerator> task = new Task<MarkovTextGenerator>() {
 	        @Override
-	        public textgen.MarkovTextGenerator call() {
+	        public MarkovTextGenerator call() {
 	            // process long-running computation, data retrieval, etc...
 
 	            mtg.retrain(textBox.getText());
@@ -234,7 +237,7 @@ public class TextProController {
 		// MTG trained, close loading dialog, show MTG dialog
 	    task.setOnSucceeded(e -> {
 	    	loadStage.close();
-	        textgen.MarkovTextGenerator result = task.getValue();
+	        MarkovTextGenerator result = task.getValue();
 	        mainApp.showMarkovDialog(result);
 	    });
 	    

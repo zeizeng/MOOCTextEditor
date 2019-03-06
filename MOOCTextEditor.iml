@@ -12,6 +12,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="richtextfx-fat-0.6.10" level="project" />
     <orderEntry type="library" name="Maven: org.fxmisc.richtext:richtextfx:0.4" level="project" />
     <orderEntry type="library" name="Maven: org.fxmisc.easybind:easybind:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.fxmisc.undo:undofx:2.1.0" level="project" />
@@ -50,8 +51,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.logging.log4j:log4j-api:2.11.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.logging.log4j:log4j-core:2.11.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.11.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-test:3.0.0-M1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.camel:camel-management-impl:3.0.0-M1" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>

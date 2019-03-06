@@ -1,4 +1,4 @@
-package textgen;
+package neil.personal.textgen;
 
 import java.util.AbstractList;
 

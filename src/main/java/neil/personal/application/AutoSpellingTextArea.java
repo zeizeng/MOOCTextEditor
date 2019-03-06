@@ -84,7 +84,7 @@ public class AutoSpellingTextArea extends StyledTextArea<Boolean> {
 			// define boolean Text node style
 			if (!correct) {
 				textNode.setUnderline(true);
-				textNode.setBackgroundFill(Color.TOMATO);
+				textNode.setFill(Color.TOMATO);
 			}
 		});
 

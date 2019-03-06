@@ -4,7 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import textgen.MarkovTextGenerator;
+import neil.personal.textgen.MarkovTextGenerator;
 
 public class MarkovController {
 	private Stage dialogStage;
@@ -57,7 +57,7 @@ public class MarkovController {
 	}
 	
 	
-	public void setMTG(textgen.MarkovTextGenerator mtg) {
+	public void setMTG(MarkovTextGenerator mtg) {
 		this.mtg = mtg;
 	}
     

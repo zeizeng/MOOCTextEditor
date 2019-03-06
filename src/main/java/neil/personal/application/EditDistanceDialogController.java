@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import neil.personal.spelling.WordPath;
 
 public class EditDistanceDialogController {
 	private Stage dialogStage;
@@ -52,7 +53,7 @@ public class EditDistanceDialogController {
     	        public List<String> call() {
     	        	// get word path
     	        	LaunchClass launch = new LaunchClass();
-    	        	spelling.WordPath wp = launch.getWordPath();
+    	        	WordPath wp = launch.getWordPath();
     	    		List<String> path = wp.findPath(word1.getText(), word2.getText());
                     return path;
     	        }

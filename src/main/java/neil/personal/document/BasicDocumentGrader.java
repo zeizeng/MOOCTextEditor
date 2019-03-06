@@ -4,8 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.PrintWriter;
 
-import document.BasicDocument;
-
 public class BasicDocumentGrader {
     public static void main(String[] args) {
         try

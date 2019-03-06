@@ -263,17 +263,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-management-api/3.0.0-M1/camel-management-api-3.0.0-M1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.apache.camel:camel-management-impl:3.0.0-M1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-management-impl/3.0.0-M1/camel-management-impl-3.0.0-M1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-management-impl/3.0.0-M1/camel-management-impl-3.0.0-M1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-management-impl/3.0.0-M1/camel-management-impl-3.0.0-M1-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: org.apache.camel:camel-properties:3.0.0-M1">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-properties/3.0.0-M1/camel-properties-3.0.0-M1.jar!/" />
@@ -360,17 +349,6 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-support/3.0.0-M1/camel-support-3.0.0-M1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.apache.camel:camel-test:3.0.0-M1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-test/3.0.0-M1/camel-test-3.0.0-M1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-test/3.0.0-M1/camel-test-3.0.0-M1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/apache/camel/camel-test/3.0.0-M1/camel-test-3.0.0-M1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.apache.camel:camel-timer:3.0.0-M1">
@@ -548,6 +526,13 @@
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/" />
       </SOURCES>
+    </library>
+    <library name="richtextfx-fat-0.6.10">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/richtextfx-fat-0.6.10.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
     </library>
   </component>
   <component name="masterDetails">

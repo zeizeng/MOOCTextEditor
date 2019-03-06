@@ -1,44 +1,50 @@
 package neil.personal.application;
 
+import neil.personal.document.Document;
+import neil.personal.document.EfficientDocument;
+import neil.personal.spelling.*;
+import neil.personal.textgen.MarkovTextGenerator;
+import neil.personal.textgen.MarkovTextGeneratorLoL;
+
 import java.util.Random;
 
 
 public class LaunchClass {
 	
-	public String dictFile = "data/dict.txt";
+	public String dictFile = "src/data/dict.txt";
 	
 	public LaunchClass() {
 		super();
 	}
 	
-	public document.Document getDocument(String text) {
+	public Document getDocument(String text) {
 		// Change this to BasicDocument(text) for week 1 only
-		return new document.EfficientDocument(text);
+		return new EfficientDocument(text);
 	}
 	
-	public textgen.MarkovTextGenerator getMTG() {
-		return new textgen.MarkovTextGeneratorLoL(new Random());
+	public MarkovTextGenerator getMTG() {
+		return new MarkovTextGeneratorLoL(new Random());
 	}
 	
-	public spelling.WordPath getWordPath() {
-		return new spelling.WPTree();
+	public WordPath getWordPath() {
+		return new WPTree();
 	}
 	
-    public spelling.AutoComplete getAutoComplete() {
-        spelling.AutoCompleteDictionaryTrie tr = new spelling.AutoCompleteDictionaryTrie();
-        spelling.DictionaryLoader.loadDictionary(tr, dictFile);
+    public AutoComplete getAutoComplete() {
+        AutoCompleteDictionaryTrie tr = new AutoCompleteDictionaryTrie();
+        DictionaryLoader.loadDictionary(tr, dictFile);
         return tr;
     }
     
-    public spelling.Dictionary getDictionary() {
-        spelling.Dictionary d = new spelling.DictionaryBST();
-        spelling.DictionaryLoader.loadDictionary(d, dictFile);
+    public Dictionary getDictionary() {
+        Dictionary d = new DictionaryBST();
+        DictionaryLoader.loadDictionary(d, dictFile);
     	return d;
     }
     
-    public spelling.SpellingSuggest getSpellingSuggest(spelling.Dictionary dic) {
+    public SpellingSuggest getSpellingSuggest(Dictionary dic) {
     	//return new spelling.SpellingSuggestNW(new spelling.NearbyWords(dic));
-    	return new spelling.NearbyWords(dic);
+    	return new NearbyWords(dic);
     
     }
 }
