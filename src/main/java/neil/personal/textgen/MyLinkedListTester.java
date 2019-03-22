@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
  */
 public class MyLinkedListTester {
 
-    private static final int LONG_LIST_LENGTH = 10;
+    private static final int LONG_LIST_LENGTH = 100;
 
     MyLinkedList<String> shortList;
     MyLinkedList<Integer> emptyList;
@@ -27,15 +27,15 @@ public class MyLinkedListTester {
     @Before
     public void setUp() throws Exception {
         // Feel free to use these lists, or add your own
-        shortList = new MyLinkedList<String>();
+        shortList = new MyLinkedList<>();
         shortList.add("A");
         shortList.add("B");
-        emptyList = new MyLinkedList<Integer>();
-        longerList = new MyLinkedList<Integer>();
+        emptyList = new MyLinkedList<>();
+        longerList = new MyLinkedList<>();
         for (int i = 0; i < LONG_LIST_LENGTH; i++) {
             longerList.add(i);
         }
-        list1 = new MyLinkedList<Integer>();
+        list1 = new MyLinkedList<>();
         list1.add(65);
         list1.add(21);
         list1.add(42);
@@ -106,8 +106,15 @@ public class MyLinkedListTester {
         assertEquals("Remove: check a is correct ", 65, a);
         assertEquals("Remove: check element 0 is correct ", (Integer) 21, list1.get(0));
         assertEquals("Remove: check size is correct ", 2, list1.size());
+        try {
+            shortList.remove(5);
+            fail("out of bounds");
+        } catch (IndexOutOfBoundsException e) {
 
-        // TODO: Add more tests here
+        }
+        String c = shortList.remove(0);
+        assertEquals("Remove: check c", "A", c);
+        assertEquals("Remove: check size", 1, shortList.size);
     }
 
     /**
@@ -116,7 +123,9 @@ public class MyLinkedListTester {
      */
     @Test
     public void testAddEnd() {
-        // TODO: implement this test
+
+        longerList.add(500);
+        assertEquals("check last", 500, (int) longerList.get(longerList.size - 1));
 
     }
 
@@ -126,7 +135,7 @@ public class MyLinkedListTester {
      */
     @Test
     public void testSize() {
-        // TODO: implement this test
+        assertEquals("check size", 100, longerList.size);
     }
 
 
@@ -137,7 +146,11 @@ public class MyLinkedListTester {
      */
     @Test
     public void testAddAtIndex() {
-        // TODO: implement this test
+        shortList.add(2, "D");
+        assertEquals("check size", 3, shortList.size);
+        assertEquals("check 0", "A", shortList.get(0));
+        assertEquals("check 1", "B", shortList.get(1));
+        assertEquals("check 2", "D", shortList.get(2));
 
     }
 
@@ -146,11 +159,11 @@ public class MyLinkedListTester {
      */
     @Test
     public void testSet() {
-        // TODO: implement this test
-
+        shortList.set(0, "C");
+        shortList.set(1, "D");
+        assertEquals("check 0", "C", shortList.get(0));
+        assertEquals("check 1", "D", shortList.get(1));
     }
 
-
-    // TODO: Optionally add more test methods.
 
 }
