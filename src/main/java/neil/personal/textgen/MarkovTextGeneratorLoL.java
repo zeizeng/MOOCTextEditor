@@ -95,7 +95,6 @@ public class MarkovTextGeneratorLoL implements MarkovTextGenerator {
         train(sourceText);
     }
 
-    // TODO: Add any private helper methods you need here.
 
 
     /**

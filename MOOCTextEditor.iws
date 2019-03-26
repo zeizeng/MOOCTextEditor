@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="9baa01cb-5ec5-433c-9063-b9d08b6202ed" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/MOOCTextEditor.iws" afterPath="$PROJECT_DIR$/MOOCTextEditor.iws" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedList.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedListTester.java" afterPath="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedListTester.java" />
+      <change beforePath="$PROJECT_DIR$/src/data/words.small.txt" afterPath="$PROJECT_DIR$/src/data/words.small.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoCompleteDictionaryTrie.java" afterPath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoCompleteDictionaryTrie.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoCompleteDictionaryTrieTester.java" afterPath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoCompleteDictionaryTrieTester.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBST.java" afterPath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBST.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBSTTester.java" afterPath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBSTTester.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBenchmarking.java" afterPath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBenchmarking.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLL.java" afterPath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLL.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLLTester.java" afterPath="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLLTester.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGeneratorLoL.java" afterPath="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGeneratorLoL.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/neil/personal/test.java" afterPath="$PROJECT_DIR$/src/test/java/neil/personal/test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,38 +37,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/application/MainApp.java">
+      <file leaf-file-name="AutoCompleteDictionaryTrie.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoCompleteDictionaryTrie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="79" column="29" lean-forward="false" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+            <state relative-caret-position="315">
+              <caret line="174" column="5" lean-forward="true" selection-start-line="174" selection-start-column="5" selection-end-line="174" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+                <element signature="docComment;method#addWord#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+                <element signature="method#addWord#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+                <element signature="docComment;method#size#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+                <element signature="method#size#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+                <element signature="docComment;method#isWord#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+                <element signature="method#isWord#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+                <element signature="docComment;method#predictCompletions#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+                <element signature="e#5477#5478#0" expanded="true" />
+                <element signature="e#5508#5509#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLinkedListTester.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedListTester.java">
+      <file leaf-file-name="AutoCompleteDictionaryTrieTester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoCompleteDictionaryTrieTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="52" column="56" lean-forward="true" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+            <state relative-caret-position="2349">
+              <caret line="135" column="29" lean-forward="true" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
               <folding>
-                <element signature="e#3535#3536#0" expanded="true" />
-                <element signature="e#3599#3600#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2192">
-              <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
-              <folding>
-                <element signature="method#linkBefore#0;class#MyLinkedList#0" expanded="false" />
+                <element signature="method#testAddWord#0;class#AutoCompleteDictionaryTrieTester#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -87,6 +91,8 @@
       <find>word</find>
       <find>countSyllables</find>
       <find>getD</find>
+      <find>there</find>
+      <find>smallDict</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,18 +106,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/neil/personal/document/EfficientDocumentGrader.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoComplete.java" />
-        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoCompleteDictionaryTrie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoCompleteDictionaryTrieTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/Dictionary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBenchmarking.java" />
-        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBSTTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryGrader.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryHashSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLL.java" />
-        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLLTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/NearbyWords.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/NearbyWordsGraderOne.java" />
@@ -124,7 +122,6 @@
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/WPTreeGrader.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGeneratorGrader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGeneratorLoL.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/textgen/Before.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedListGrader.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/document/BasicDocumentGrader.java" />
@@ -146,11 +143,20 @@
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/application/LaunchClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/document/EfficientDocument.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/document/DocumentBenchmarking.java" />
-        <option value="$PROJECT_DIR$/src/test/java/neil/personal/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/document/Document.java" />
         <option value="$PROJECT_DIR$/src/test/java/neil/personal/textgen/MyLinkedListGraderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedListTester.java" />
+        <option value="$PROJECT_DIR$/src/test/java/neil/personal/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGeneratorLoL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLLTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBSTTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBenchmarking.java" />
+        <option value="$PROJECT_DIR$/src/data/words.small.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoCompleteDictionaryTrieTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoCompleteDictionaryTrie.java" />
       </list>
     </option>
   </component>
@@ -166,10 +172,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-168" />
-    <option name="y" value="52" />
-    <option name="width" value="1073" />
-    <option name="height" value="1046" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -224,6 +229,12 @@
               <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
               <item name="MOOCTextEditor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOOCTextEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -232,14 +243,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MOOCTextEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="personal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +251,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="personal" type="462c0819:PsiDirectoryNode" />
-              <item name="document" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
@@ -257,38 +259,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="personal" type="462c0819:PsiDirectoryNode" />
-              <item name="textgen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MOOCTextEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="personal" type="462c0819:PsiDirectoryNode" />
-              <item name="textgen" type="462c0819:PsiDirectoryNode" />
-              <item name="MarkovTextGeneratorLoL.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MOOCTextEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MOOCTextEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MOOCTextEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="personal" type="462c0819:PsiDirectoryNode" />
+              <item name="spelling" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MOOCTextEditor" type="b2602c69:ProjectViewProjectNode" />
@@ -339,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyLinkedListTester">
+  <component name="RunManager" selected="JUnit.AutoCompleteDictionaryTrieTester.testPredictCompletions">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -361,18 +332,18 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="MyLinkedListTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoCompleteDictionaryTrieTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="neil.personal.textgen.*" />
+          <option name="PATTERN" value="neil.personal.spelling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="MOOCTextEditor" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="neil.personal.textgen" />
-      <option name="MAIN_CLASS_NAME" value="neil.personal.textgen.MyLinkedListTester" />
+      <option name="PACKAGE_NAME" value="neil.personal.spelling" />
+      <option name="MAIN_CLASS_NAME" value="neil.personal.spelling.AutoCompleteDictionaryTrieTester" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -386,19 +357,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MyLinkedListTester.testAddAtIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoCompleteDictionaryTrieTester.testAddWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="neil.personal.textgen.*" />
+          <option name="PATTERN" value="neil.personal.spelling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="MOOCTextEditor" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="neil.personal.textgen" />
-      <option name="MAIN_CLASS_NAME" value="neil.personal.textgen.MyLinkedListTester" />
-      <option name="METHOD_NAME" value="testAddAtIndex" />
+      <option name="PACKAGE_NAME" value="neil.personal.spelling" />
+      <option name="MAIN_CLASS_NAME" value="neil.personal.spelling.AutoCompleteDictionaryTrieTester" />
+      <option name="METHOD_NAME" value="testAddWord" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -411,19 +382,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MyLinkedListTester.testAddEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoCompleteDictionaryTrieTester.testIsWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="neil.personal.textgen.*" />
+          <option name="PATTERN" value="neil.personal.spelling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="MOOCTextEditor" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="neil.personal.textgen" />
-      <option name="MAIN_CLASS_NAME" value="neil.personal.textgen.MyLinkedListTester" />
-      <option name="METHOD_NAME" value="testAddEnd" />
+      <option name="PACKAGE_NAME" value="neil.personal.spelling" />
+      <option name="MAIN_CLASS_NAME" value="neil.personal.spelling.AutoCompleteDictionaryTrieTester" />
+      <option name="METHOD_NAME" value="testIsWord" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -436,19 +407,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MyLinkedListTester.testSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoCompleteDictionaryTrieTester.testPredictCompletions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="neil.personal.textgen.*" />
+          <option name="PATTERN" value="neil.personal.spelling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="MOOCTextEditor" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="neil.personal.textgen" />
-      <option name="MAIN_CLASS_NAME" value="neil.personal.textgen.MyLinkedListTester" />
-      <option name="METHOD_NAME" value="testSet" />
+      <option name="PACKAGE_NAME" value="neil.personal.spelling" />
+      <option name="MAIN_CLASS_NAME" value="neil.personal.spelling.AutoCompleteDictionaryTrieTester" />
+      <option name="METHOD_NAME" value="testPredictCompletions" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -461,18 +432,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MyLinkedListTester.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoCompleteDictionaryTrieTester.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="neil.personal.textgen.*" />
+          <option name="PATTERN" value="neil.personal.spelling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="MOOCTextEditor" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="neil.personal.textgen" />
-      <option name="MAIN_CLASS_NAME" value="neil.personal.textgen.MyLinkedListTester" />
+      <option name="PACKAGE_NAME" value="neil.personal.spelling" />
+      <option name="MAIN_CLASS_NAME" value="neil.personal.spelling.AutoCompleteDictionaryTrieTester" />
       <option name="METHOD_NAME" value="testSize" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -547,19 +518,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MyLinkedListTester.testAddEnd" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MyLinkedListTester.testSize" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MyLinkedListTester.testAddAtIndex" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MyLinkedListTester.testSet" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MyLinkedListTester" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AutoCompleteDictionaryTrieTester.testAddWord" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AutoCompleteDictionaryTrieTester" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AutoCompleteDictionaryTrieTester.testIsWord" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AutoCompleteDictionaryTrieTester.testSize" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AutoCompleteDictionaryTrieTester.testPredictCompletions" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyLinkedListTester" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyLinkedListTester.testSet" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MyLinkedListTester.testAddAtIndex" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MyLinkedListTester.testSize" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MyLinkedListTester.testAddEnd" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AutoCompleteDictionaryTrieTester.testPredictCompletions" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AutoCompleteDictionaryTrieTester.testAddWord" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AutoCompleteDictionaryTrieTester.testIsWord" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AutoCompleteDictionaryTrieTester.testSize" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AutoCompleteDictionaryTrieTester" />
       </list>
     </recent_temporary>
   </component>
@@ -585,35 +556,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyLinkedListTester - 2019.03.22 at 11h 18m 32s.xml">
-      <configuration name="MyLinkedListTester" configurationId="JUnit" />
+    <history-entry file="AutoCompleteDictionaryTrieTester - 2019.03.26 at 14h 23m 20s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester_testAddAtIndex - 2019.03.21 at 15h 46m 44s.xml">
-      <configuration name="MyLinkedListTester.testAddAtIndex" configurationId="JUnit" />
+    <history-entry file="AutoCompleteDictionaryTrieTester - 2019.03.26 at 14h 23m 56s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester_testAddAtIndex - 2019.03.21 at 15h 46m 59s.xml">
-      <configuration name="MyLinkedListTester.testAddAtIndex" configurationId="JUnit" />
+    <history-entry file="AutoCompleteDictionaryTrieTester - 2019.03.26 at 15h 01m 40s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester_testAddAtIndex - 2019.03.21 at 15h 47m 44s.xml">
-      <configuration name="MyLinkedListTester.testAddAtIndex" configurationId="JUnit" />
+    <history-entry file="AutoCompleteDictionaryTrieTester_testAddWord - 2019.03.26 at 15h 03m 12s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester.testAddWord" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester_testAddAtIndex - 2019.03.21 at 15h 48m 39s.xml">
-      <configuration name="MyLinkedListTester.testAddAtIndex" configurationId="JUnit" />
+    <history-entry file="AutoCompleteDictionaryTrieTester_testIsWord - 2019.03.26 at 15h 02m 56s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester.testIsWord" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester_testAddAtIndex - 2019.03.21 at 15h 48m 48s.xml">
-      <configuration name="MyLinkedListTester.testAddAtIndex" configurationId="JUnit" />
+    <history-entry file="AutoCompleteDictionaryTrieTester_testIsWord - 2019.03.26 at 15h 03m 05s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester.testIsWord" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester_testAddAtIndex - 2019.03.21 at 15h 48m 57s.xml">
-      <configuration name="MyLinkedListTester.testAddAtIndex" configurationId="JUnit" />
+    <history-entry file="AutoCompleteDictionaryTrieTester_testPredictCompletions - 2019.03.26 at 17h 09m 30s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester.testPredictCompletions" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester_testAddAtIndex - 2019.03.21 at 15h 49m 13s.xml">
-      <configuration name="MyLinkedListTester.testAddAtIndex" configurationId="JUnit" />
+    <history-entry file="AutoCompleteDictionaryTrieTester_testSize - 2019.03.26 at 14h 30m 45s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester.testSize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester_testSet - 2019.03.21 at 15h 51m 12s.xml">
-      <configuration name="MyLinkedListTester.testSet" configurationId="JUnit" />
+    <history-entry file="AutoCompleteDictionaryTrieTester_testSize - 2019.03.26 at 14h 59m 42s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester.testSize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTester_testSize - 2019.03.21 at 15h 44m 35s.xml">
-      <configuration name="MyLinkedListTester.testSize" configurationId="JUnit" />
+    <history-entry file="AutoCompleteDictionaryTrieTester_testSize - 2019.03.26 at 15h 01m 54s.xml">
+      <configuration name="AutoCompleteDictionaryTrieTester.testSize" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -637,12 +608,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.4940476" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2687704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33841133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21481876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39339018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.48809522" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -718,12 +689,31 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGeneratorLoL.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGeneratorLoL.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLLTester.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="head" language="JAVA" />
+        <watch expression="smallDict.toString()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -746,6 +736,11 @@
     </expressions>
     <expressions id="watch">
       <expression>
+        <expression-string>smallDict.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>head</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -753,131 +748,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/license.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/MOOCTextEditor/src/textgen/MyLinkedListTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGeneratorGrader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1755">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/application/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/application/view/RootLayout.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/view/RootLayout.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/javafx-src.zip!/javafx/stage/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="955" column="0" lean-forward="false" selection-start-line="955" selection-start-column="0" selection-end-line="955" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/javafx-src.zip!/javafx/stage/Stage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="259" column="0" lean-forward="false" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/message1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/message2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/dict.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_cases/dict2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/dict.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/application/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/fxmisc/richtext/richtextfx/0.4/richtextfx-0.4.jar!/org/fxmisc/richtext/StyledTextArea.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/view/TextAppLayout.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -960,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/document/BasicDocumentGrader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/application/EditDistanceDialogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -982,125 +844,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGeneratorLoL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/warAndPeace.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1331627">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/document/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
-          <folding>
-            <element signature="method#getTokens#0;class#Document#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/document/BasicDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/document/DocumentBenchmarking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/document/EfficientDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-863">
-          <caret line="57" column="37" lean-forward="true" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/neil/personal/textgen/MyLinkedListGraderTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/neil/personal/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedListGrader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="226" column="43" lean-forward="false" selection-start-line="226" selection-start-column="43" selection-end-line="226" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1109,28 +857,326 @@
         <state relative-caret-position="1620">
           <caret line="79" column="29" lean-forward="false" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/neil/personal/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/document/EfficientDocumentGrader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/warAndPeace.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGeneratorGrader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="83" column="61" lean-forward="true" selection-start-line="83" selection-start-column="61" selection-end-line="83" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/document/EfficientDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215">
+          <caret line="60" column="27" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2192">
-          <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
+        <state relative-caret-position="-512">
+          <caret line="132" column="5" lean-forward="false" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
           <folding>
             <element signature="method#linkBefore#0;class#MyLinkedList#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="237" column="12" lean-forward="false" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3042">
+          <caret line="134" column="11" lean-forward="false" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/document/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2871">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedListTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="52" column="56" lean-forward="true" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+        <state relative-caret-position="-2709">
+          <caret line="52" column="56" lean-forward="false" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/document/BasicDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2619">
+          <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/document/BasicDocumentGrader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/document/DocumentBenchmarking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLLTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="e#3535#3536#0" expanded="true" />
-            <element signature="e#3599#3600#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="false" />
+            <element signature="e#330#331#0" expanded="false" />
+            <element signature="e#941#942#0" expanded="false" />
+            <element signature="e#975#976#0" expanded="false" />
+            <element signature="e#1082#1083#0" expanded="false" />
+            <element signature="e#1135#1136#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MyLinkedListGrader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2439">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <folding>
+            <element signature="e#228#229#0" expanded="false" />
+            <element signature="e#266#267#0" expanded="false" />
+            <element signature="e#839#840#0" expanded="false" />
+            <element signature="e#873#874#0" expanded="false" />
+            <element signature="e#980#981#0" expanded="false" />
+            <element signature="e#1033#1034#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBSTTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1534">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/textgen/MarkovTextGeneratorLoL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/dict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryBenchmarking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="59" column="74" lean-forward="false" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/DictionaryLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/words.small.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6507">
+          <caret line="4183" column="8" lean-forward="true" selection-start-line="4183" selection-start-column="8" selection-end-line="4183" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoComplete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/TrieNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="75" column="21" lean-forward="false" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="21" />
+          <folding>
+            <element signature="e#1749#1750#0" expanded="false" />
+            <element signature="e#1769#1770#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoCompleteDictionaryTrieTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2349">
+          <caret line="135" column="29" lean-forward="true" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
+          <folding>
+            <element signature="method#testAddWord#0;class#AutoCompleteDictionaryTrieTester#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/neil/personal/spelling/AutoCompleteDictionaryTrie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="174" column="5" lean-forward="true" selection-start-line="174" selection-start-column="5" selection-end-line="174" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+            <element signature="docComment;method#addWord#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+            <element signature="method#addWord#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+            <element signature="docComment;method#size#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+            <element signature="method#size#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+            <element signature="docComment;method#isWord#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+            <element signature="method#isWord#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+            <element signature="docComment;method#predictCompletions#0;class#AutoCompleteDictionaryTrie#0" expanded="false" />
+            <element signature="e#5477#5478#0" expanded="true" />
+            <element signature="e#5508#5509#0" expanded="true" />
           </folding>
         </state>
       </provider>
